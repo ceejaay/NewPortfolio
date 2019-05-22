@@ -8,6 +8,28 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/chad_jemmett_picture.jpg'
 
+const imgStyle = {
+  backgroundImage: `url${pic01}`,
+  height: "10px",
+  width: "10px",
+  border: "1px solid black"
+
+}
+
+const divTest = {
+  backgroundImage: `url(${pic01})`,
+  height: '200px',
+  width: '200px',
+  border: "solid black 1px",
+  borderRadius: "50%",
+  display: "inline-block"
+}
+
+
+const liStyle = {
+  // border: "dotted red 3px"
+}
+
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -64,7 +86,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <span className="icon major style3 fa-code"></span>
                 <h3>Ipsum consequat</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
               </li>
