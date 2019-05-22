@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/chad_jemmett_picture.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -45,9 +45,9 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>So I can do websites</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
+                <p>Put my text here. Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
                 adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
                 Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
                 <ul className="actions">
