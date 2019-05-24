@@ -7,27 +7,14 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/chad_jemmett_picture.jpg'
+import temp01 from '../assets/images/pic02.jpg'
 
 const imgStyle = {
   backgroundImage: `url${pic01}`,
-  height: "10px",
-  width: "10px",
-  border: "1px solid black"
-
-}
-
-const divTest = {
-  backgroundImage: `url(${pic01})`,
-  height: '200px',
-  width: '200px',
-  border: "solid black 1px",
-  borderRadius: "50%",
-  display: "inline-block"
-}
-
-
-const liStyle = {
-  // border: "dotted red 3px"
+  height: "300px",
+  width: "300px",
+  border: "1px solid black",
+  borderRadius: '50%'
 }
 
 class Index extends React.Component {
@@ -86,19 +73,25 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style3 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="generic">
+                  <img style={imgStyle} src={temp01} alt="pic"/>
+                  <h3>Ipsum consequat</h3>
+                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </Link>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="generic">
+                  <img style={imgStyle} src={temp01} alt="pic"/>
+                  <h3>Ipsum consequat</h3>
+                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </Link>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="generic">
+                  <img style={imgStyle} src={temp01} alt="pic"/>
+                  <h3>Ipsum consequat</h3>
+                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </Link>
               </li>
             </ul>
             <footer className="major">
