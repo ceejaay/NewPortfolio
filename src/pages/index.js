@@ -8,6 +8,8 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/chad_jemmett_picture.jpg'
 import temp01 from '../assets/images/pic02.jpg'
+import dead from '../assets/images/dead.png'
+import dont from '../assets/images/dont.png'
 
 const imgStyle = {
   backgroundImage: `url${pic01}`,
@@ -60,7 +62,6 @@ class Index extends React.Component {
                 adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
                 Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
               </div>
               <span className="image"><img src={pic01} alt="Chad Jemmett" /></span>
@@ -74,16 +75,16 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <Link to="generic">
-                  <img style={imgStyle} src={temp01} alt="pic"/>
-                  <h3>Ipsum consequat</h3>
-                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                  <img style={imgStyle} src={dead} alt="pic"/>
+                  <h3>Dead or Alive?</h3>
+                  <p>A React app that tests a user on whether a famous person is living or dead? I wrote the backend code.</p>
                 </Link>
               </li>
               <li>
                 <Link to="generic">
-                  <img style={imgStyle} src={temp01} alt="pic"/>
-                  <h3>Ipsum consequat</h3>
-                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                  <img style={imgStyle} src={dont} alt="pic"/>
+                  <h3>Don't Send that Email</h3>
+                  <p>A React app that evaluates the emotional tone of an email or text message.</p>
                 </Link>
               </li>
               <li>
@@ -96,7 +97,6 @@ class Index extends React.Component {
             </ul>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -132,7 +132,6 @@ class Index extends React.Component {
             <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
@@ -145,8 +144,6 @@ class Index extends React.Component {
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
           </section>
