@@ -74,14 +74,14 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <Link to="generic">
+                <Link to="doa">
                   <img style={imgStyle} src={dead} alt="pic"/>
                   <h3>Dead or Alive?</h3>
                   <p>A React app that tests a user on whether a famous person is living or dead? I wrote the backend code.</p>
                 </Link>
               </li>
               <li>
-                <Link to="generic">
+                <Link to="dont_send_email">
                   <img style={imgStyle} src={dont} alt="pic"/>
                   <h3>Don't Send that Email</h3>
                   <p>A React app that evaluates the emotional tone of an email or text message.</p>
