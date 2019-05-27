@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/chad_jemmett_picture.jpg'
+import pic01 from '../assets/images/chad_jemmett_pic.jpg'
 import temp01 from '../assets/images/pic02.jpg'
 import dead from '../assets/images/dead.png'
 import dont from '../assets/images/dont.png'
@@ -87,13 +87,6 @@ class Index extends React.Component {
                   <p>A React app that evaluates the emotional tone of an email or text message.</p>
                 </Link>
               </li>
-              <li>
-                <Link to="generic">
-                  <img style={imgStyle} src={temp01} alt="pic"/>
-                  <h3>Ipsum consequat</h3>
-                  <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                </Link>
-              </li>
             </ul>
             <footer className="major">
               <ul className="actions">
@@ -136,17 +129,6 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Volunteer Work</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-              </ul>
-            </footer>
-          </section>
 
         </div>
 
