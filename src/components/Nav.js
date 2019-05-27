@@ -20,6 +20,7 @@ const Nav = (props) => (
                     <a href="#">Skills</a>
                 </Scroll>
             </li>
+            {/*add another button here */}
         </Scrollspy>
     </nav>
 )

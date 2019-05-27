@@ -16,7 +16,8 @@ const imgStyle = {
   height: "300px",
   width: "300px",
   border: "1px solid black",
-  borderRadius: '50%'
+  borderRadius: '50%',
+  borderColor: '#dddddd'
 }
 
 class Index extends React.Component {

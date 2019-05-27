@@ -80,7 +80,7 @@
 	@mixin color-spotlight($p: null) {
 		.spotlight {
 			.image {
-				border-color: _palette($p, border);
+				border-color: white;
 			}
 		}
 	}
