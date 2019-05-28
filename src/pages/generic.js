@@ -7,10 +7,8 @@ import pic04 from '../assets/images/pic04.jpg'
 
 const linkDiv = {
   display: "flex",
-  flexDirection: "row",
   alignItems: "center",
-  justifyContent: "center"
-
+  justifyContent: "center",
 }
 
 const linkStyle = {
