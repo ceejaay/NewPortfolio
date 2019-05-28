@@ -10,6 +10,7 @@ import pic01 from '../assets/images/chad_jemmett_pic.jpg'
 import temp01 from '../assets/images/pic02.jpg'
 import dead from '../assets/images/dead.png'
 import dont from '../assets/images/dont.png'
+import DevIcon from "devicon-react-svg";
 
 const imgStyle = {
   backgroundImage: `url${pic01}`,
@@ -19,6 +20,15 @@ const imgStyle = {
   borderRadius: '50%',
   borderColor: '#dddddd'
 }
+
+const tempIcon = {
+  width: "100px",
+  height: "100px",
+  fill: "#ffffff",
+}
+
+
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -103,24 +113,24 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
+                <DevIcon  icon="javascript" style={tempIcon}/>
                 <strong></strong> Javascript
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
+                <DevIcon icon="react" style={tempIcon} />
                 <strong></strong> React 
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
+                <DevIcon icon="nodejs" style={tempIcon} />
                 <strong></strong> Node 
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
+                <DevIcon icon="ruby" style={tempIcon} />
                 <strong></strong> Ruby
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong></strong> Python 
+                <DevIcon icon="python" style={tempIcon} />
+                <strong></strong> Python
               </li>
             </ul>
             <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
