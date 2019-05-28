@@ -6,8 +6,8 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2>Chad Jemmett</h2>
+            <p>A full-stack developer. Skilled in Javascript, React, Node, Ruby, and Python.</p>
             <ul className="actions">
               {/* footer button from here */}
             </ul>
