@@ -7,7 +7,8 @@ class Template extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: 'is-loading'
+      loading: 'is-loading',
+      data: ['hello']
     }
   }
 

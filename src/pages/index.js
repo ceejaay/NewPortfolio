@@ -34,7 +34,8 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      stickyNav: false
+      stickyNav: false,
+      data: []
     }
   }
 
@@ -44,6 +45,10 @@ class Index extends React.Component {
 
   _handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }));
+  }
+
+  componentDidMount() {
+
   }
 
   render() {
@@ -67,11 +72,12 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>So I can do websites</h2>
+                  <h2>A.B.C. Always Be Creating.</h2>
                 </header>
-                <p>Put my text here. Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>So it's not gramattically correct. But  we have a short time on this rock. It's up to us to make it worthwhile.
+                Fast learner, focused, independant. Leader. These are the things you get with me.
+                Please, take a look at my projects. Contact me with any questions.
+                </p>
                 <ul className="actions">
                 </ul>
               </div>
@@ -108,7 +114,7 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Skills</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+              <p>I like learning. Here's a sample of my skills.se feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
             <ul className="statistics">
@@ -133,7 +139,7 @@ class Index extends React.Component {
                 <strong></strong> Python
               </li>
             </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+            <p className="content">Javascript, Node, React. These are the front-end and backend skills that are required. I taught myself Ruby so I know how to read documentation. I gained computer science prinicpals using Python.</p>
             <footer className="major">
               <ul className="actions">
               </ul>
