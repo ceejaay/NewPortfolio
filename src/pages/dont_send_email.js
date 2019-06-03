@@ -19,16 +19,26 @@ const linkStyle = {
   textAlign: "center"
 }
 
+
+const imgStyle = {
+  height: "150px"
+}
+
+const headerStyles = {
+  margin: "30px 0",
+
+}
+
 class Generic extends React.Component {
   render() {
 
     return (
       <Layout>
         <Helmet title="Don't Send that Email" />
-        <h1>Don't Send that Email</h1>
+        <h1 style={headerStyles}>Don't Send that Email</h1>
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={dont_send_email} alt="Chad Jemmett" /></span>
+            <span className="image main" ><img src={dont_send_email} alt="Chad Jemmett" /></span>
             <h2>Don't Send that Email</h2>
             <p>This is a React app with a Node backend. This app takes the user's message and analyzes the emotional tone of the message. It uses the IBM Watson API to do the analysis. I worked on a team of six people to get this app completed in five weeks. The most challenging and interesting thing was implementing the API. We used the IBM Watson API to analyze the tone of email or text messages.</p>
             <div style={linkDiv}>
