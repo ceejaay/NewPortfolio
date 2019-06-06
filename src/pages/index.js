@@ -14,8 +14,8 @@ import DevIcon from "devicon-react-svg";
 
 const imgStyle = {
   backgroundImage: `url${pic01}`,
-  height: "300px",
-  width: "300px",
+  height: "250px",
+  width: "250px",
   border: "1px solid black",
   borderRadius: '50%',
   borderColor: '#dddddd'
