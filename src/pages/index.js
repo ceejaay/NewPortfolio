@@ -8,7 +8,7 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/chad_jemmett_pic.jpg'
 import temp01 from '../assets/images/pic02.jpg'
-import dead from '../assets/images/dead.png'
+import dead from '../assets/images/doa_logo.png'
 import dont from '../assets/images/dont.png'
 import DevIcon from "devicon-react-svg";
 
