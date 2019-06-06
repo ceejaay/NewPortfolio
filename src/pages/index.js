@@ -75,7 +75,7 @@ class Index extends React.Component {
                   <h2>A.B.C. Always Be Creating.</h2>
                 </header>
                 <p>Life is short, so don't bother wasting time on things you are not passionate about.
-                I am passionate about building tools that help people communicate. I am an independant, reliable full-stack web dev.
+                I am passionate about building tools that help people communicate. I am an independent, reliable full-stack web dev.
                 </p>
                 <p>Please, take a look at my projects. Contact me with any questions.</p>
                 <ul className="actions">
