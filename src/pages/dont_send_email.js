@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 import HeaderGeneric from '../components/HeaderGeneric'
@@ -19,13 +20,30 @@ const linkStyle = {
   textAlign: "center"
 }
 
-
 const imgStyle = {
   height: "150px"
 }
 
+const headerDiv = {
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+}
+
 const headerStyles = {
   margin: "30px 0",
+
+}
+
+const headerLink = {
+  height: "2.25em",
+  width: "10%",
+  textAlign: "center",
+  lineHeight: "2.25em",
+  fontSize: "0.9em",
+  background: "#f7f7f7",
+  color: "gray",
+  borderRadius: "8px",
 
 }
 
@@ -35,7 +53,10 @@ class Generic extends React.Component {
     return (
       <Layout>
         <Helmet title="Don't Send that Email" />
-        <h1 style={headerStyles}>Don't Send that Email</h1>
+        <div style={headerDiv}>
+          <h1 style={headerStyles}>Don't Send that Email</h1>
+          <Link to="/" style={headerLink} >Home</Link>
+        </div>
         <div id="main">
           <section id="content" className="main">
             <span className="image main" ><img src={dont_send_email} alt="Chad Jemmett" /></span>
