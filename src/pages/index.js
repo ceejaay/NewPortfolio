@@ -35,6 +35,16 @@ const projLiStyle = {
   justifyContent: "space-around"
 }
 
+const linkStyles = {
+  display: "flex",
+  width: "100%",
+  height: "55px",
+  border: "gray solid 1px",
+  borderRadius: "8px",
+  justifyContent: "center",
+  alignItems: "center",
+}
+
 
 
 
@@ -134,9 +144,9 @@ class Index extends React.Component {
                 <img style={imgStyle} src={dont} alt="pic"/>
               </li>
               <li style={projLiStyle}>
-            <a  href="https://github.com/Lambda-School-Labs/dont-send-that-email">Github</a>
-            <a  href="https://dont-send-that-email.netlify.com/">Live Site</a>
-            <a  href="https://github.com/Lambda-School-Labs/dont-send-that-email/pulls?q=is%3Apr+author%3Aceejaay+is%3Aclosed">Pull Requests</a>
+            <a style={linkStyles} href="https://github.com/Lambda-School-Labs/dont-send-that-email">Github</a>
+            <a  style={linkStyles} href="https://dont-send-that-email.netlify.com/">Live Site</a>
+            <a  style={linkStyles} href="https://github.com/Lambda-School-Labs/dont-send-that-email/pulls?q=is%3Apr+author%3Aceejaay+is%3Aclosed">Pull Requests</a>
               </li>
             </ul>
             <p className="content">
@@ -159,9 +169,9 @@ class Index extends React.Component {
                 <img style={imgStyle} src={dead} alt="pic"/>
               </li>
               <li style={projLiStyle}>
-                <a  href="https://github.com/BrianARuff/team_dead_or_alive/tree/master/api">Github</a>
-                <a  href="https://doa-dev-marketing.herokuapp.com">Live Site</a>
-                <a  href="#">Pull Requests</a>
+                <a  style={linkStyles} href="https://github.com/BrianARuff/team_dead_or_alive/tree/master/api">Github</a>
+                <a style={linkStyles} href="https://doa-dev-marketing.herokuapp.com">Live Site</a>
+                <a style={linkStyles} href="#">Pull Requests</a>
               </li>
             </ul>
             <p className="content">
@@ -175,7 +185,7 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Skills</h2>
-              <p>I always like learning new things. But this is what I'm best at.<br />
+              <p>I always like learning new things. But here's a list of things I'm best at.<br />
               </p>
             </header>
             <ul className="statistics">
@@ -206,19 +216,6 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-
-          <section id="volunteer" className="main special">
-            <header className="major">
-              <h2>Volunteer Work</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-              </ul>
-            </footer>
-          </section>
-
         </div>
 
       </Layout>
