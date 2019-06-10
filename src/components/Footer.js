@@ -15,8 +15,6 @@ const Footer = (props) => (
         <section>
             <h2>Contact Me</h2>
             <dl className="alt">
-                <dt>Address</dt>
-                <dd>260 N 3000 W West Point, UT 84015</dd>
                 <dt>Phone</dt>
                 <dd>(208) 350-0359</dd>
                 <dt>Email</dt>

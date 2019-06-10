@@ -198,10 +198,18 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-          <section id="test">
-            this is the test section
-          </section>
 
+          <section id="cta" className="main special">
+            <header className="major">
+              <h2>Volunteer Work</h2>
+              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+            </header>
+            <footer className="major">
+              <ul className="actions">
+              </ul>
+            </footer>
+          </section>
 
         </div>
 
