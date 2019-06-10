@@ -32,7 +32,7 @@ const tempIcon = {
 const projLiStyle = {
   display: "flex",
   flexDirection: "column",
-
+  justifyContent: "space-around"
 }
 
 
@@ -150,15 +150,23 @@ class Index extends React.Component {
 
           <section id="doa" className="main special">
             <header className="major">
-              <h2>Dead or Alive</h2>
+              <h2>Dead or Alive?</h2>
               <p><br />
               </p>
             </header>
             <ul className="features">
-              <li>image</li>
-              <li>links</li>
+              <li>
+                <img style={imgStyle} src={dead} alt="pic"/>
+              </li>
+              <li style={projLiStyle}>
+                <a  href="https://github.com/BrianARuff/team_dead_or_alive/tree/master/api">Github</a>
+                <a  href="https://doa-dev-marketing.herokuapp.com">Live Site</a>
+                <a  href="#">Pull Requests</a>
+              </li>
             </ul>
-            <p className="content">description of project here</p>
+            <p className="content">
+              I wrote the backend of this app in Node. The front-end developer and I collaborated on the database schema. I wrote tests to ensure the endpoints worked properly. This was an enjoyable project. I was the sole developer on the backend. I had to research and implement the usage of third-party APIs. I used two different APIs. One to get the data about the famous people. The other to get the pictures. <br /><strong>Note: There are no pull requests on this app. My project manager and I just pushed or merged to master after we discussed the feature</strong> 
+            </p>
             <footer className="major">
               <ul className="actions">
               </ul>
@@ -199,7 +207,7 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="volunteer" className="main special">
             <header className="major">
               <h2>Volunteer Work</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
