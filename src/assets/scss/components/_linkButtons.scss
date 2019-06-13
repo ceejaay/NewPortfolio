@@ -1,0 +1,38 @@
+.linkButton {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  border: gray solid 1px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.projectListStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+
+}
+
+@include breakpoint(small) {
+  .linkButton {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    border: gray solid 1px;
+    border-radius: 8px;
+    justifyContent: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+}
+
+
+
+
