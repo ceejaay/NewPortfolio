@@ -39,7 +39,8 @@
 		border-bottom: dotted 0px;
 		color: inherit; 
 		&:hover {
-			border-bottom-color: transparent;
+      background: lightgray;
+			// border-bottom-color: transparent;
 		}
 	}
 
