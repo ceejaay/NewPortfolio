@@ -143,10 +143,10 @@ class Index extends React.Component {
               <li>
                 <img style={imgStyle} src={dont} alt="pic"/>
               </li>
-              <li style={projLiStyle}>
-            <a style={linkStyles} href="https://github.com/Lambda-School-Labs/dont-send-that-email">Github</a>
-            <a  style={linkStyles} href="https://dont-send-that-email.netlify.com/">Live Site</a>
-            <a  style={linkStyles} href="https://github.com/Lambda-School-Labs/dont-send-that-email/pulls?q=is%3Apr+author%3Aceejaay+is%3Aclosed">Pull Requests</a>
+              <li className="projectLinkStyle">
+            <a className="linkButton" href="https://github.com/Lambda-School-Labs/dont-send-that-email">Github</a>
+            <a  className="linkButton" href="https://dont-send-that-email.netlify.com/">Live Site</a>
+            <a  className="linkButton" href="https://github.com/Lambda-School-Labs/dont-send-that-email/pulls?q=is%3Apr+author%3Aceejaay+is%3Aclosed">Pull Requests</a>
               </li>
             </ul>
             <p className="content">
@@ -168,10 +168,10 @@ class Index extends React.Component {
               <li>
                 <img style={imgStyle} src={dead} alt="pic"/>
               </li>
-              <li style={projLiStyle}>
-                <a  style={linkStyles} href="https://github.com/BrianARuff/team_dead_or_alive/tree/master/api">Github</a>
-                <a style={linkStyles} href="https://doa-dev-marketing.herokuapp.com">Live Site</a>
-                <a style={linkStyles} href="#">Pull Requests</a>
+              <li className="projectLinkStyle">
+                <a  className="linkButton" href="https://github.com/BrianARuff/team_dead_or_alive/tree/master/api">Github</a>
+                <a className="linkButton"  href="https://doa-dev-marketing.herokuapp.com">Live Site</a>
+                <a className="linkButton" href="#">Pull Requests</a>
               </li>
             </ul>
             <p className="content">
