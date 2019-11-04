@@ -25,7 +25,7 @@ const Footer = (props) => (
                 <li><a href="https://github.com/ceejaay" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
             </ul>
         </section>
-        <p className="copyright">&copy; Chad Jemmett Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">&copy; Chad Jemmett. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
 )
 
